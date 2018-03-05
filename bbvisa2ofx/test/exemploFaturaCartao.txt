@@ -40,43 +40,43 @@ Data     Transações                             País        Valor R$   Valor 
 
 
          Pagamentos
-11/08    PGTO DEBITO CONTA 3333 000006037  200  211        -1.000,00        0,00
+11.08.2014PGTO DEBITO CONTA 3333 000006037  200  211        -1.000,00        0,00
 
 
          Compras a vista
 
          Compras Diversas
-25/07    Atlassian              Sydney          AU              0,00       20,00
+25.07.2014Atlassian              Sydney          AU              0,00       20,00
          *** 20,00 DOLAR AMERICANO
-28/07    IOF - COMPRA NO EXTERIOR                               0,00        1,28
+28.07.2014IOF - COMPRA NO EXTERIOR                               0,00        1,28
          *** 1,28 DOLAR AMERICANO
-28/07    PAYPAL *CACHORRO QUENTE    4029357733  LU             57,85        0,00
-29/07    IOF - COMPRA NO EXTERIOR                               3,69        0,00
-30/07    NETFLIX.COM            SAO PAULO       BR             16,90        0,00
-30/07    AGROPECUARIA VERDES CA                 BR             65,00        0,00
+28.07.2014PAYPAL *CACHORRO QUENTE    4029357733  LU             57,85        0,00
+29.07.2014IOF - COMPRA NO EXTERIOR                               3,69        0,00
+30.07.2014NETFLIX.COM            SAO PAULO       BR             16,90        0,00
+30.07.2014AGROPECUARIA VERDES CA                 BR             65,00        0,00
 
          Compras por mala direta/telefone/web
-07/08    CONTA AZUL             JOINVILLE       BR             29,90        0,00
+07.08.2014CONTA AZUL             JOINVILLE       BR             29,90        0,00
 
 
          Compras/Pagamento de contas parceladas
 
          Compras Diversas
-26/06    LLLLLLLLLLLL  PARC 02/03 FLORIANOPOLI  BR            352,00        0,00
-04/10    ASDASDASDASDA PARC 11/12 FARROUPILHA   BR            141,58        0,00
+26.06.2014LLLLLLLLLLLL  PARC 02/03 FLORIANOPOLI  BR            352,00        0,00
+04.10.2013ASDASDASDASDA PARC 11/12 FARROUPILHA   BR            141,58        0,00
 
          Companhias A&eacute;reas
-19/07    GOL TRAN   SP PARC 02/02 SAO PAULO     BR            163,90        0,00
+19.07.2014GOL TRAN   SP PARC 02/02 SAO PAULO     BR            163,90        0,00
 
 
          D&eacute;bitos diversos
-26/08    PROTECAO OURO SET/2014                 BR              3,00        0,00
+26.08.2014PROTECAO OURO SET/2014                 BR              3,00        0,00
          (SUSEP - 15414.004663/2004-41)
-15/08    AJUSTE A DEBITO VAR.CAMBIAL COMPRA EX  T               3,95        0,00
+15.08.2014AJUSTE A DEBITO VAR.CAMBIAL COMPRA EX  T               3,95        0,00
 
 
          Anuidades
-26/08    ANUIDADE DIFERENCIADA TIT-PARC 03/06   BR             15,00        0,00
+26.08.2014ANUIDADE DIFERENCIADA TIT-PARC 03/06   BR             15,00        0,00
 
 
          SubTotal                                           1.696,19        0,00

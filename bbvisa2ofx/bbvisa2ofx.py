@@ -1,8 +1,9 @@
-
 from datetime import datetime
-from txtparser import TxtParser
 
-def convert ( fileTxt, fileOfx, closeOfxFile=True):
+from bbvisa2ofx.txtparser import TxtParser
+
+
+def convert(fileTxt, fileOfx, closeOfxFile=True):
     """
         fileTxt: python file para o arquivo txt disponibilizado pelo banco do brasil
         fileOfx: python file com o caminho para o ofx que sera gerado
@@ -11,23 +12,20 @@ def convert ( fileTxt, fileOfx, closeOfxFile=True):
         Em um arquivo OFX temos um banco, que possui contas (neste caso apenas uma) que por sua vez possuem transacoes.
         Os itens retornados pelo parser do txt, representam transacoes de uma conta
 
-        Para cada transacao o parametro FITID eh composto dos valores %(date)%(value)s%(desc) - este item eh preenchido para que o gnucash
-        possa defirnir se o item jah foi importado ou nao
+        Para cada transacao o parametro FITID eh composto dos hash md5 dos valores %(date)%(value)%(desc) ,
+        este item eh preenchido para que o gnucash possa defirnir se o item jah foi importado ou nao
     """
-
     parser = TxtParser(fileTxt)
     parser.parse()
     items = parser.items
     cardTitle = parser.cardTitle
     cardNumber = parser.cardNumber
-
+    #
     today = datetime.now().strftime('%Y%m%d')
-
-
+    #
     # output
-    out=fileOfx
-
-    out.write (
+    out = fileOfx
+    out.write(
         """OFXHEADER:100
 DATA:OFXSGML
 VERSION:102
@@ -70,23 +68,21 @@ NEWFILEUID:NON
                 <BANKTRANLIST>
                     <DTSTART>%(DTSERVER)s</DTSTART>
                     <DTEND>%(DTSERVER)s</DTEND>
-        """ % {'DTSERVER':today,'BANKID':cardTitle.replace(' ',''),'ACCTID':cardNumber}
+        """ % {'DTSERVER': today, 'BANKID': cardTitle.replace(' ', ''), 'ACCTID': cardNumber}
     )
-
+    #
     for item in items:
         out.write(
-                """
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>%(date)s</DTPOSTED>
-                        <TRNAMT>%(value)s</TRNAMT>
-                        <FITID>%(fitid)s</FITID>
-                        <MEMO>%(desc)s</MEMO>
-                    </STMTTRN>""" % item
-                  )
-
-
-
+            """
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>%(date)s</DTPOSTED>
+                    <TRNAMT>%(value)s</TRNAMT>
+                    <FITID>%(fitid)s</FITID>
+                    <MEMO>%(desc)s</MEMO>
+                </STMTTRN>""" % item
+        )
+    #
     out.write(
         """
                 </BANKTRANLIST>
@@ -100,11 +96,8 @@ NEWFILEUID:NON
 </OFX>
         """ % today
 
-
     )
-
-    if(closeOfxFile):
+    #
+    if closeOfxFile:
         out.close()
-    print "Convertido com sucesso!"
-
-
+    print("Success!")

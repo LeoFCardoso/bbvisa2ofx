@@ -15,7 +15,7 @@ NEWFILEUID:NON
                 <CODE>0</CODE>
                 <SEVERITY>INFO</SEVERITY>
             </STATUS>
-            <DTSERVER>20141125</DTSERVER>
+            <DTSERVER>20180304</DTSERVER>
             <LANGUAGE>POR</LANGUAGE>
             <FI>
                 <ORG>Banco do Brasil</ORG>
@@ -38,111 +38,111 @@ NEWFILEUID:NON
                    <ACCTTYPE>CHECKING</ACCTTYPE>
                 </BANKACCTFROM>
                 <BANKTRANLIST>
-                    <DTSTART>20141125</DTSTART>
-                    <DTEND>20141125</DTEND>
+                    <DTSTART>20180304</DTSTART>
+                    <DTEND>20180304</DTEND>
         
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140811</DTPOSTED>
-                        <TRNAMT>1000.0</TRNAMT>
-                        <FITID>201408111000.0PGTODEBITOCONTA3333000006037200</FITID>
-                        <MEMO>PGTO DEBITO CONTA 3333 000006037  200  </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140725</DTPOSTED>
-                        <TRNAMT>-46.86</TRNAMT>
-                        <FITID>20140725-46.86AtlassianSydney</FITID>
-                        <MEMO>Atlassian              Sydney          </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140728</DTPOSTED>
-                        <TRNAMT>-2.99904</TRNAMT>
-                        <FITID>20140728-2.99904IOF-COMPRANOEXTERIOR</FITID>
-                        <MEMO>IOF - COMPRA NO EXTERIOR               </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140728</DTPOSTED>
-                        <TRNAMT>-57.85</TRNAMT>
-                        <FITID>20140728-57.85PAYPALCACHORROQUENTE4029357733</FITID>
-                        <MEMO>PAYPAL CACHORRO QUENTE    4029357733  </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140729</DTPOSTED>
-                        <TRNAMT>-3.69</TRNAMT>
-                        <FITID>20140729-3.69IOF-COMPRANOEXTERIOR</FITID>
-                        <MEMO>IOF - COMPRA NO EXTERIOR               </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140730</DTPOSTED>
-                        <TRNAMT>-16.9</TRNAMT>
-                        <FITID>20140730-16.9NETFLIX.COMSAOPAULO</FITID>
-                        <MEMO>NETFLIX.COM            SAO PAULO       </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140730</DTPOSTED>
-                        <TRNAMT>-65.0</TRNAMT>
-                        <FITID>20140730-65.0AGROPECUARIAVERDESCA</FITID>
-                        <MEMO>AGROPECUARIA VERDES CA                 </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140807</DTPOSTED>
-                        <TRNAMT>-29.9</TRNAMT>
-                        <FITID>20140807-29.9CONTAAZULJOINVILLE</FITID>
-                        <MEMO>CONTA AZUL             JOINVILLE       </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140626</DTPOSTED>
-                        <TRNAMT>-352.0</TRNAMT>
-                        <FITID>20140626-352.0LLLLLLLLLLLLPARC02/03FLORIANOPOLI</FITID>
-                        <MEMO>LLLLLLLLLLLL  PARC 02/03 FLORIANOPOLI  </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20131004</DTPOSTED>
-                        <TRNAMT>-141.58</TRNAMT>
-                        <FITID>20131004-141.58ASDASDASDASDAPARC11/12FARROUPILHA</FITID>
-                        <MEMO>ASDASDASDASDA PARC 11/12 FARROUPILHA   </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140719</DTPOSTED>
-                        <TRNAMT>-163.9</TRNAMT>
-                        <FITID>20140719-163.9GOLTRANSPPARC02/02SAOPAULO</FITID>
-                        <MEMO>GOL TRAN   SP PARC 02/02 SAO PAULO     </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140826</DTPOSTED>
-                        <TRNAMT>-3.0</TRNAMT>
-                        <FITID>20140826-3.0PROTECAOOUROSET/2014</FITID>
-                        <MEMO>PROTECAO OURO SET/2014                 </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140815</DTPOSTED>
-                        <TRNAMT>-3.95</TRNAMT>
-                        <FITID>20140815-3.95AJUSTEADEBITOVAR.CAMBIALCOMPRAEX</FITID>
-                        <MEMO>AJUSTE A DEBITO VAR.CAMBIAL COMPRA EX  </MEMO>
-                    </STMTTRN>
-                    <STMTTRN>
-                        <TRNTYPE>OTHER</TRNTYPE>
-                        <DTPOSTED>20140826</DTPOSTED>
-                        <TRNAMT>-15.0</TRNAMT>
-                        <FITID>20140826-15.0ANUIDADEDIFERENCIADATIT-PARC03/06</FITID>
-                        <MEMO>ANUIDADE DIFERENCIADA TIT-PARC 03/06   </MEMO>
-                    </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140811</DTPOSTED>
+                    <TRNAMT>-1.0</TRNAMT>
+                    <FITID>949bb2d907204427c21f12dec73bfab7</FITID>
+                    <MEMO>PGTO DEBITO CONTA 3333 000006037  200  2</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140725</DTPOSTED>
+                    <TRNAMT>-46.86</TRNAMT>
+                    <FITID>263c015e3791812cb90fa9d98cd2b8e0</FITID>
+                    <MEMO>Atlassian              Sydney          A</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140728</DTPOSTED>
+                    <TRNAMT>-2.99904</TRNAMT>
+                    <FITID>7b534cf6c021ceaefc61bb1868f9c09e</FITID>
+                    <MEMO>IOF - COMPRA NO EXTERIOR</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140728</DTPOSTED>
+                    <TRNAMT>-57.85</TRNAMT>
+                    <FITID>0fcf208f9bfd2f82254178b0b63af5ce</FITID>
+                    <MEMO>PAYPAL CACHORRO QUENTE    4029357733  L</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140729</DTPOSTED>
+                    <TRNAMT>-3.69</TRNAMT>
+                    <FITID>e6e20c08fb688c035c08b940c6c6c975</FITID>
+                    <MEMO>IOF - COMPRA NO EXTERIOR</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140730</DTPOSTED>
+                    <TRNAMT>-16.9</TRNAMT>
+                    <FITID>2c75e4108bf132245a5477498795242b</FITID>
+                    <MEMO>NETFLIX.COM            SAO PAULO       B</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140730</DTPOSTED>
+                    <TRNAMT>-65.0</TRNAMT>
+                    <FITID>041efe30d606618f53f80026d4b1279e</FITID>
+                    <MEMO>AGROPECUARIA VERDES CA                 B</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140807</DTPOSTED>
+                    <TRNAMT>-29.9</TRNAMT>
+                    <FITID>834895e26623fde6a0d4146de299d750</FITID>
+                    <MEMO>CONTA AZUL             JOINVILLE       B</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140726</DTPOSTED>
+                    <TRNAMT>-352.0</TRNAMT>
+                    <FITID>72a849b2314c8fcfb22d0f2f4b6df9da</FITID>
+                    <MEMO>LLLLLLLLLLLL  PARC 02/03 FLORIANOPOLI  B DT ORIG: 26/06/2014</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140804</DTPOSTED>
+                    <TRNAMT>-141.58</TRNAMT>
+                    <FITID>8f3c630f437835aff8ef7bb4ba0fa92a</FITID>
+                    <MEMO>ASDASDASDASDA PARC 11/12 FARROUPILHA   B DT ORIG: 04/10/2013</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140819</DTPOSTED>
+                    <TRNAMT>-163.9</TRNAMT>
+                    <FITID>181583cb62940e263a384f781b1f16a4</FITID>
+                    <MEMO>GOL TRAN   SP PARC 02/02 SAO PAULO     B DT ORIG: 19/07/2014</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140826</DTPOSTED>
+                    <TRNAMT>-3.0</TRNAMT>
+                    <FITID>1914c1b645677c8146d782bcc7a4459c</FITID>
+                    <MEMO>PROTECAO OURO SET/2014                 B</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20140815</DTPOSTED>
+                    <TRNAMT>-3.95</TRNAMT>
+                    <FITID>0e8e466b8835220a476fd1dbd8aae368</FITID>
+                    <MEMO>AJUSTE A DEBITO VAR.CAMBIAL COMPRA EX  T</MEMO>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20141026</DTPOSTED>
+                    <TRNAMT>-15.0</TRNAMT>
+                    <FITID>91f26477f726b389cdf2f4629d301208</FITID>
+                    <MEMO>ANUIDADE DIFERENCIADA TIT-PARC 03/06   B DT ORIG: 26/08/2014</MEMO>
+                </STMTTRN>
                 </BANKTRANLIST>
                 <LEDGERBAL>
                     <BALAMT>0</BALAMT>
-                    <DTASOF>20141125</DTASOF>
+                    <DTASOF>20180304</DTASOF>
                 </LEDGERBAL>
             </STMTRS>
         </STMTTRNRS>

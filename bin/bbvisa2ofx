@@ -1,31 +1,27 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-import sys, os
-from Tkinter import *
-from tkFileDialog   import askopenfilename
-from tkMessageBox import *
-
+import os
+from tkinter import *
+from tkinter.filedialog import askopenfilename
 
 try:
-  # tentando usar o pacote instalado
-  from bbvisa2ofx import bbvisa2ofx
+    # tentando usar o pacote instalado
+    from bbvisa2ofx import bbvisa2ofx
 except:
-  # nao rolou, entao tenta usar o source pois esta rodando direto pelo codigo
-  sys.path.insert (0,os.path.dirname(os.path.abspath(__file__))+"/..")
-  from bbvisa2ofx import bbvisa2ofx
+    # nao rolou, entao tenta usar o source pois esta rodando direto pelo codigo
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/..")
+    from bbvisa2ofx import bbvisa2ofx
+
 
 def main():
-	pathTxt = askopenfilename()
-	if(not os.path.isfile(pathTxt)):
-	    print "File not found: %s" % pathTxt
-	else:
-		fileTxt = open(pathTxt,'r')
-		fileOfx = open(pathTxt + ".ofx",'w')
-		bbvisa2ofx.convert(pathTxt,fileOfx)
-
-
-
+    pathTxt = askopenfilename()
+    if not os.path.isfile(pathTxt):
+        print("File not found: %s" % pathTxt)
+    else:
+        fileTxt = open(pathTxt, 'r', encoding="ISO-8859-1")
+        fileOfx = open(pathTxt + ".ofx", 'w', encoding="ISO-8859-1")
+        bbvisa2ofx.convert(fileTxt, fileOfx)
 
 
 if __name__ == '__main__':
-  main()
+    main()
